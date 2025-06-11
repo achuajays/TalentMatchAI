@@ -1,5 +1,5 @@
 # Hiring Automation Crew - Comprehensive Guide
-
+![TalentMatchAI](TalentMatchAI.png)
 ## 🎯 Project Overview
 
 This is an AI-powered hiring automation system built with CrewAI that streamlines the recruitment process. The system uses intelligent agents to analyze candidate resumes against job descriptions, make hiring decisions, and automatically manage documentation in Google Sheets and Google Docs.
