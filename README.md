@@ -133,10 +133,14 @@ hiring_automation/
 - Formats candidate information with visual elements
 - Inserts content at document end
 
+
+
+```
+
+
 ![TalentMatchAI](1.png)
 ![TalentMatchAI](2.png)
 
-```
 
 **Input**:
 - Candidate name
