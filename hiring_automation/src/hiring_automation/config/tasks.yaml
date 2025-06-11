@@ -1,0 +1,13 @@
+hr_recruiter_task:
+  description: >
+    Analyze the provided resume {resume} and job description {job_discription}. Based on your assessment, determine whether the candidate is qualified or should be rejected for the position. Provide a clear recommendation: "Qualified" or "Rejected", along with a brief justification for your decision. if the candidate is qualified, append the candidate's name and reason to the google sheet.
+  expected_output: >
+    A concise evaluation stating either "Qualified" or "Rejected" for the candidate, accompanied by a short explanation supporting your recommendation. Format the output as plain text.
+  agent: hr_recruiter
+
+write_to_gdoc_task:
+  description: >
+    If the candidate is determined to be "Qualified" after analyzing the provided resume {resume} and job description {job_discription}, write the candidate's details (including name and justification) to a Google Doc for record-keeping. If the candidate is "Rejected", do not write to the Google Doc.
+  expected_output: >
+    If qualified, a confirmation message that the candidate's details have been written to the Google Doc. If rejected, a message stating no action was taken.
+  agent: hr_recruiter
